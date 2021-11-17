@@ -32,6 +32,7 @@ public class PlayerMovement : MonoBehaviour
     }
     void Run()
     {
+        //Run
         Vector2 playerVelocity = new Vector2(moveInput.x * runSpeed,myRigidbody.velocity.y);
         myRigidbody.velocity = playerVelocity;
         bool playerHasHorizontalSpeed = Mathf.Abs(myRigidbody.velocity.x) > Mathf.Epsilon;
