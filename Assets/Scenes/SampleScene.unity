@@ -137,7 +137,7 @@ GameObject:
   - component: {fileID: 47773886}
   - component: {fileID: 47773885}
   - component: {fileID: 47773884}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Platform Tilemap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6183,6 +6183,10 @@ PrefabInstance:
       propertyPath: runSpeed
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 1205653335816030064, guid: 5f39e44ba0af9ce4ea7eca9ca9f1c982, type: 3}
+      propertyPath: jumpSpeed
+      value: 25
+      objectReference: {fileID: 0}
     - target: {fileID: 2757912076450338862, guid: 5f39e44ba0af9ce4ea7eca9ca9f1c982, type: 3}
       propertyPath: m_Name
       value: Bloko
@@ -6230,6 +6234,14 @@ PrefabInstance:
     - target: {fileID: 2757912076450338899, guid: 5f39e44ba0af9ce4ea7eca9ca9f1c982, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5085937760631020103, guid: 5f39e44ba0af9ce4ea7eca9ca9f1c982, type: 3}
+      propertyPath: m_GravityScale
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5085937760631020103, guid: 5f39e44ba0af9ce4ea7eca9ca9f1c982, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f39e44ba0af9ce4ea7eca9ca9f1c982, type: 3}
