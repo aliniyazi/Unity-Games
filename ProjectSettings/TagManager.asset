@@ -12,7 +12,7 @@ TagManager:
   - Water
   - UI
   - Ground
-  - 
+  - Climbing
   - 
   - 
   - 
@@ -49,6 +49,9 @@ TagManager:
     locked: 0
   - name: Platforms
     uniqueID: 68593463
+    locked: 0
+  - name: Climbing
+    uniqueID: 4074815219
     locked: 0
   - name: Plyer
     uniqueID: 331019017
